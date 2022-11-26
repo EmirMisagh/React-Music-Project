@@ -1,0 +1,145 @@
+.footer{
+    width: 100%;
+    height: 130px;
+    margin: 0;
+    margin-top: 80px;
+    margin-bottom: -12px;
+    border-top: 1px solid rgb(39, 39, 39);
+    z-index: 9999999999;
+    
+}
+.copy{
+   text-align: center;
+   margin-top: 15px;
+   color: rgb(107, 104, 104);
+}
+.anime{
+    width: 80%;
+    height: 60px;
+    margin-left: 5%;
+ overflow: hidden;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    justify-content: right;
+}
+.anime div{
+    background-color: rgb(197, 197, 197);
+    width: 4px;
+    height: 50px;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+.anime div[id='anim1']{
+    
+    animation: myfirst .5s linear .5s infinite alternate;
+    
+}
+.anime div[id='anim2']{
+  
+    animation: myfirst .7s linear .5s infinite alternate;
+   
+}
+.anime div[id='anim3']{
+   
+    animation: myfirst .4s linear .5s infinite alternate;
+    
+}
+.anime div[id='anim4']{
+    
+    animation: myfirst .8s linear .5s infinite alternate;
+    
+}
+@keyframes myfirst {
+    0%   { margin-top: 20px;}
+    
+    
+   
+    100% { margin-top: 50px;}
+  }
+.animeplay h5{
+    text-align: right;
+   color: rgb(168, 168, 168);
+   font-family: "Audiowide", sans-serif;
+}
+.btntop{
+   
+    position: relative;
+}
+.btntop button{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    border: 0;
+   background: none;
+    color: rgb(161, 161, 161);
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 19px;
+    top: 50%;
+    font-family: "Sofia", sans-serif;
+}
+.responc{
+    text-align: center;
+   
+    width: 70%;
+    height: 100%;
+    margin-left: 20%;
+   position: relative;
+}
+.responc svg rect[id='screen']{
+    
+    fill: rgb(197, 197, 197);
+    width: 60px;
+    height: 100px;
+    x: 85px;
+    y: 5px;
+    animation: mymobile 5s linear 2s infinite alternate;
+}
+@keyframes mymobile {
+    0% { stroke: rgb(197, 197, 197);  width: 60px; height: 100px;x: 85px;  y: 5px; transform: rotate(0deg);}
+    20% { stroke: rgb(197, 197, 197);width: 60px; height: 100px;x: 85px;  y: 5px; transform: rotate(0deg);}
+    40% { stroke: rgb(197, 197, 197); width: 60px;height: 140px;x: 20px;y: -190px;transform: rotate(90deg);}
+    60% { stroke: rgb(197, 197, 197);width: 60px;height: 140px;x: 20px;y: -190px;transform: rotate(90deg);}
+    80% { stroke: rgb(197, 197, 197);width: 60px; height: 100px; x: 10px;  y: -160px;transform: rotate(90deg);}
+    100% { stroke: rgb(197, 197, 197);width: 60px; height: 100px; x: 10px;  y: -160px; transform: rotate(90deg);}
+    
+}
+.responc svg rect[id='keybord']{
+    
+    fill: rgb(0, 0, 0);
+    width: 20px;
+    height: 5px;
+    x: 105px;
+    y: 95px;
+    rx: 2%;
+    clip-path: polygon(14% 1%, 88% 0, 100% 100%, 0% 100%);
+    animation: mykeybord 5s linear 2s infinite alternate;
+}
+@keyframes mykeybord {
+    0% { fill: rgb(0, 0, 0);  width: 20px; height: 5px;x: 105px;  y: 95px;}
+    20% { fill: rgb(0, 0, 0);width: 20px; height: 5px;x: 105px;  y: 95px; }
+    40% { fill: rgb(197, 197, 197);width: 3px; height: 35px; x: 120px;  y: 85px;}
+    60% { fill: rgb(197, 197, 197);width: 3px; height: 35px; x: 120px;  y: 85px; }
+    80% { fill: rgb(197, 197, 197); width: 130px;height: 30px;x: 45px;y: 75px;}
+    100% { fill: rgb(197, 197, 197);width: 130px;height: 30px;x: 45px;y: 75px;}
+}
+.responc svg text{
+    
+    fill: none;
+    width: 130px;
+    height: 30px;
+   font-weight: 800;
+   font-family: "Sofia", sans-serif;
+
+    animation: mytext 5s linear 2s infinite alternate;
+}
+@keyframes mytext {
+    0% {fill: none;}
+   
+    44% { fill: none;}
+    45% { fill: rgb(0, 0, 0);}
+    55% { fill: rgb(0, 0, 0); }
+    56% {fill: none;}
+    100% {fill: none;}
+}

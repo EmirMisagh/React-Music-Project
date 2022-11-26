@@ -1,0 +1,262 @@
+.playeindex{
+  position: fixed;
+  color: aliceblue;
+  padding: 0px 14px;
+  height: 370px;
+  background-color: rgba(41, 39, 39, 0.6);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  bottom: 15px;
+  transition: .6s;
+  z-index: 999999;
+  width: 25%;
+  right: 15px;
+  border-radius: 10px;
+}
+.player{
+  position: fixed;
+  width: 100%;
+  padding: 0;
+  height: 90px;
+  background-color: rgba(85, 85, 85, 0.6);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  bottom: 0px;
+  z-index: 999999;
+  transition: .6s;
+  right: 0;
+}
+.player button[id='close']{
+  display: none;
+}
+.left{
+  filter: blur(0px);
+  padding: 0;
+  display: flex;
+  
+}
+.left img{
+  width: 60px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 25px;
+  border-radius: 5px;
+}
+.btnplay{
+ 
+ padding-top: 10px;
+}
+.btnplay i{
+  color: rgb(250, 250, 250);
+  cursor: pointer;
+  height: 30px;
+  margin-top: 25px;
+  margin-left: 21px;
+  transition: 0.2s;
+  filter: blur(0px);
+  font-size: 32px;
+  
+}
+.left i a{
+  color: rgb(250, 250, 250);
+  transition: 0.2s;
+}
+.left i a:hover{
+  color: #000000;
+}
+.left i[id='sound']{
+  margin-top: 29px;
+  filter: blur(0px);
+}
+.left i:hover{
+  color: #000000;
+}
+.sound{
+  display: flex;
+  padding-top: 3px;
+}
+.soundbtn{
+  width: 100px;
+  height: 5px;
+  background-color: rgba(237, 237, 237, 0.38);
+  margin-top: 35px;
+  margin-left: 10px;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+  filter: blur(0px);
+  display: flex;
+}
+.sound i{
+  color: rgb(250, 250, 250);
+  cursor: pointer;
+  height: 30px;
+  margin-top: 20px;
+ 
+  transition: 0.2s;
+  filter: blur(0px);
+  font-size: 32px;
+}
+.soundbtn div{
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 5px;
+  background-color: #000000;
+  transition: 0.4s;
+}
+#name{
+  font-weight: bold;
+  color: #e4e7ef;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+#time{
+  font-weight: bold;
+  color: #e4e7ef;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-align: right;
+  padding-right: 15px;
+  width: auto;
+  float: right;
+  cursor: pointer;
+}
+#time i[id='icon']{
+  margin-right: 7px;
+  font-size: 26px;
+  cursor: pointer;
+}
+#time i[id='icon']:hover{
+  color: #000000;
+}
+.fill-div{
+  text-align: center;
+  padding: 0;
+  margin-top: 10px;
+}
+.fill-btn {
+  width: 96%;
+  height: 5px;
+  background-color: rgba(237, 237, 237, 0.38);
+  margin-left: 2%;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+}
+.fill-btn div{
+  width: 0%;
+  height: 5px;
+  background-color: #000000;
+  margin-left: 0%;
+  border-radius: 50px;
+  position: absolute;
+  transition: 0.2s;
+  top: 0;
+}
+.playeindex .fill-div{
+  text-align: center;
+  padding: 0;
+  margin-top: 10px;
+}
+.playeindex .fill-btn {
+  width: 90%;
+  height: 5px;
+  background-color: rgba(237, 237, 237, 0.38);
+  margin-left: 5%;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+}
+.playeindex .fill-btn div{
+  width: 0%;
+  height: 5px;
+  background-color: #000000;
+  margin-left: 0%;
+  border-radius: 50px;
+  position: absolute;
+  transition: 0.2s;
+  top: 0;
+}
+.playeindex .left{
+  position: relative;
+  width: 100%;
+  height: 370px;
+}
+.playeindex .left img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  opacity: .8;
+  transition: .4s;
+}
+.playeindex:hover img{
+  opacity: .5;
+}
+.playeindex .left button{
+  position: absolute;
+  right: 7px;
+  top: 7px;
+  color: #ffffff;
+  font-weight: 900;
+}
+.playeindex .left .btnplay{
+  position: absolute;
+  top: 34%;
+  left: 18%;
+}
+.playeindex .left .btnplay i{
+  font-size: 42px;
+}
+.playeindex .left .sound{
+  position: absolute;
+  top: 70%;
+  left: 18%;
+ 
+}
+.playeindex .left .sound .soundbtn{
+  width: 100px;
+  height: 5px;
+}
+.playeindex .left .sound .soundbtn div{
+  width: 50%;
+  height: 5;
+}
+.playeindex #time{
+  position: absolute;
+  left: 35%;
+  bottom: 25px;
+  cursor: pointer;
+}
+.playeindex .fill-div{
+  text-align: center;
+  padding: 0;
+  margin-top: 10px;
+  bottom: 15px;
+  position: absolute;
+}
+.playeindex .fill-btn {
+  width: 94%;
+  height: 5px;
+  background-color: rgba(237, 237, 237, 0.38);
+  margin-left: 2%;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+}
+.playeindex .fill-btn div{
+  width: 0%;
+  height: 5px;
+  background-color: #000000;
+  margin-left: 0%;
+  border-radius: 50px;
+  position: absolute;
+  transition: 0.2s;
+  top: 0;
+}

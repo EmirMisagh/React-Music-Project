@@ -1,0 +1,360 @@
+.music{
+    position: relative;   
+    width: 95%;
+    transition: .2s;   
+}
+.music img{
+    width: 100%;
+    height: 180px;
+    border-radius: 4px;
+    border: 1px solid rgba(255,255,255,.2);
+    opacity: .8;
+    display: inline-block;
+    vertical-align: middle;
+    filter: blur();
+    transition: .2s;
+}
+.music:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+.music:hover img{
+    opacity: 1;
+    box-shadow:0px 2px 10px 1px #97B1BF;
+}
+.music p{
+    color: rgba(255,255,255,.8);
+    padding-left: 7px;
+    padding-top: 7px;
+    margin-bottom: 0;
+    font-size: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: helvetica neue,helvetica,Helvetica,Arial,sans-serif;
+}
+.music h6{
+    color: rgb(248, 248, 248);
+    margin-top: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-left: 7px;
+    padding-top: 2px;
+    font-weight: 700;
+    font-family: "Trirong", serif;
+}
+.music button{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: none;
+    padding: 8px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    font-size: 20px;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 4px;
+    transition: .3s;
+}
+.music button:hover{
+    background-color: aliceblue;
+    color: #000;
+}
+/*---- singel page ---------*/
+.main {
+    width: 75%;
+    padding: 0;
+  }
+  .tozih {
+    width: 100%;
+    letter-spacing: 4px;
+    min-height: 45px;
+    background: #0a0a0a;
+    margin-top: 5px;
+    padding: 8px;
+    padding-right: 25px;
+    padding-top: 11px;
+    color: #e4e7ef;
+    text-align: center;
+    
+    font-size: 18px;
+    font-family: IRANSansWeb;
+  }
+.img {
+    width: 100%;
+    height: 410px;
+    background-color: #161727;
+    position: relative;
+  }
+  .img img {
+    width: 100%;
+    height: 100%;
+  }
+  .img div {
+    width: 100%;
+    top: 0;
+    height: 410px;
+    background: none;
+    position: absolute;
+    transition: 0.5s all;
+  }
+  .img div:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 15px;
+  }
+  .img div button {
+    width: 60px;
+    height: 60px;
+    border: 0;
+    background-color: #03a9f4;
+    color: rgb(255, 255, 255);
+    margin-left: 20%;
+    margin-top: 25px;
+    border: solid #03a9f4;
+    transition: 0.4s;
+    visibility: hidden;
+    padding-bottom: 0px;
+  }
+  .img div button:hover {
+    transition: 0s;
+    background: #1e69c4;
+    border: solid aliceblue;
+  }
+  .img div label {
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 4%;
+    font-weight: 600;
+    visibility: hidden;
+    transition: 0.4s;
+  }
+  .track {
+    width: 98%;
+    height: 410px;
+    background-color: #0a0a0a;
+    float: right;
+    position: relative;
+  }
+  .track h6 {
+    font-size: 12px;
+    color: rgb(195, 197, 218);
+    padding: 0px 5px;
+    margin: 15px;
+  }
+  .track h6 i {
+    color: #03a9f4;
+    padding: 0px 1px;
+    font-size: 16px;
+  }
+  .track h1 {
+    color: rgb(233, 236, 240);
+    font-family: "Audiowide", sans-serif;
+    margin-top: 90px;
+    margin-left: 30px;
+    font-size: 34px;
+  }
+  .track h2 {
+    color: rgb(233, 236, 240);
+    font-family: "Audiowide", sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 28px;
+  }
+  .track h2:hover {
+    color: #e8b007;
+  }
+  .track h4 {
+    float: left;
+    color: #ffffff;
+    margin-top: 60px;
+    font-size: 18px;
+    margin-left: 40px;
+    font-family: "Trirong", serif;
+  }
+  .track h5 {
+    float: left;
+    font-size: 16px;
+    color: rgb(198, 202, 206);
+    margin-left: 40px;
+    font-family: "Trirong", serif;
+  }
+  .track h5 strong {
+    color: #03a9f4;
+  }
+  .track small {
+    float: right;
+    position: absolute;
+    bottom: 10px;
+    right: 38px;
+    color: #ffffff;
+  }
+  .moretrack {
+    width: 100%;
+    background-color: #0a0a0a;
+    height: 700px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .moretrack p {
+    text-align: left;
+    font-size: 18px;
+    color: rgb(198, 202, 206);
+    padding: 12px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-left: 21px;
+    font-weight: bold 600;
+    background: none;
+    margin: 0;
+  }
+  .tomore {
+    height: 90%;
+    width: 100%;
+    background: none;
+    margin-top: -1.5px;
+    overflow: auto;
+    scroll-behavior: 2s;
+    padding: 0;
+  }
+  .tomore::-webkit-scrollbar {
+    width: 4px;
+  }
+  .tomore::-webkit-scrollbar-thumb {
+    background: #2e3443;
+  }
+  .tomore div {
+    position: relative;
+    margin-top: -1px;
+    width: 92%;
+    margin-left: 4%;
+    border-top: 2px solid #252742;
+    text-decoration: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 0px;
+  }
+  .tomore div:hover {
+    background: #111118;
+  }
+  .tomore div img {
+    width: 85px;
+    height: 85px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+  }
+  .tomore div h5 {
+    color: rgb(217, 217, 223);
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 20px;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 14px;
+    position: absolute;
+    top: 5px;
+    left: 75px;
+    z-index: 1;
+  }
+  .tomore div p {
+    font-size: 17px;
+    margin-left: 20px;
+    text-align: left;
+    padding-left: 10px;
+    font-family: "Times New Roman", Times, serif;
+    color: #747791;
+    position: absolute;
+    top: 45px;
+    left: 80px;
+    z-index: 1;
+  }
+  .tomore div small {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(217, 217, 223);
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    z-index: 1;
+    float: right;
+  }
+  .tomore div small i {
+    padding: 0px 2px;
+    padding-top: -5px;
+    margin-top: 0;
+    color: #03a9f4;
+  }
+  .tomore div button {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    background: none;
+    padding: 8px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    font-size: 20px;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  .tomore div button:hover {
+    background-color: aliceblue;
+    color: #000;
+  }
+  .bax-dn {
+    width: 98%;
+    height: 180px;
+    background-color: #0a0a0a;
+    float: right;
+    position: relative;
+  }
+  .bax-dn p {
+    text-align: left;
+    font-size: 18px;
+    color: rgb(198, 202, 206);
+    padding: 12px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-left: 21px;
+    font-weight: bold 600;
+    background: none;
+    margin: 0;
+  }
+  .bax-dn h5 {
+    margin-left: 34px;
+    margin-top: 20px;
+    color: rgb(198, 202, 206);
+    font-family: "Trirong", serif;
+  }
+  .bax-dn h5:hover {
+    color: #03a9f4;
+  }
+  .bax-dn h5 button {
+    margin-left: 37px;
+    padding: 3px 18px;
+    padding-bottom: 5px;
+    background: none;
+    color: #03a9f4;
+    border: 1px solid #03a9f4;
+  }
+  .bax-dn:hover div[id="bord"] {
+    background-color: #03a9f4;
+  }
+  .bax-tabligh {
+    width: 98%;
+    height: auto;
+    background-color: #0a0d14;
+    float: right;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 5px;
+    row-gap: 5px;
+  }
+  .bax-tabligh div img {
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    opacity: 0.8;
+  }
+  .bax-tabligh div img:hover {
+    opacity: 1;
+  }

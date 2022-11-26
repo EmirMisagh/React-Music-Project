@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+.navbar{
+    width: 100%;
+  background-color: rgba(218, 214, 214, 0.7);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+   z-index: 99999;
+   top: 0;
+   position: fixed;
+}
+.navici{
+  position: fixed;
+}
+.navbar h3{
+ 
+    background: none;
+   padding-top: 0px;
+   
+  margin-bottom: 0;
+    font-weight: 900;
+   
+    font-family: "Audiowide", sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .navbar h3 a{
+    text-decoration: none;
+    color: #000;
+  }
+.navbar li a{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+  }
+  .nav-link{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 2px;
+    padding-top: 8px;
+    
+  }
+  .work{
+    background: #0057ff;
+    border-radius: 21px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+    width: 110px;
+    text-align: center;
+    padding-top: 7px;
+  }
+  .dropdown-menu{
+    background-color: rgba(190, 190, 190, 0.9);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
