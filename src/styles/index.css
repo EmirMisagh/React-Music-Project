@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+  text-decoration: none;
+}
+body{
+    background-color: #000000;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 1px;
+}
+.none{
+    display: none;
+}
+h4{
+  margin-left: 1px;
+  color: #dadada;
+  font-family: "Trirong", serif;
+}
+.search {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+.search div form {
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.search div form input {
+  min-width: 380px;
+  max-width: 470px;
+  margin: 0;
+  height: 31px;
+  border: 0;
+  outline: none;
+  padding-left: 10px;
+  background: #fff;
+}
+.search div form button {
+  margin-left: 0;
+  border: 0;
+  padding: 5px 32px;
+  font-size: 14px;
+  color: #fff;
+  background: #2196f3;
+}
+#scrol_down {
+  text-align: center;
+  color: #717172;
+}
+#scrol_down p {
+  width: 20%;
+  margin-left: 40%;
+  transition: 0.7s;
+  cursor: pointer;
+}
+#scrol_down p:hover {
+  color: #d5d5d8;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  column-gap: 5px;
+  padding: 0px;
+  padding-left: 8px;
+  padding-right: 13px;
+}
+.grid div{
+  margin-top: 5px;
+}
